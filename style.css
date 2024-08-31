@@ -1,0 +1,101 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+
+body h1 {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 45px; 
+    color: rgb(255, 255, 255);
+    height: 100px;
+    background-color: rgb(253, 187, 215);
+}
+
+.pokemon-contanier {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 10px;
+    border: 3px transparent;
+    color: #FFC0CB;
+}
+
+.card {
+    width: 150px;
+    height: 250px;
+    text-align: center;
+    border: 1px solid rgb(247, 244, 245);
+    box-shadow: 1px 1px 5px rgb(236, 117, 167); 
+}
+
+.card img {
+    width: 100%;
+    padding: 20px;
+}
+
+.card ul {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.card:hover {
+    box-shadow: 0xp 0px 15px solid rgb(19, 19, 19);
+    transition: 1s;
+}
+
+.pokemonid {
+    font-weight: bold;
+    color: rgb(252, 218, 24);
+}
+
+.pokemonname {
+    font-weight: bold;
+    color: rgb(85, 85, 85);
+}
+
+/* Type-specific styles */
+.FAIRY {
+    font-weight: bold;
+    color: #FFC0CB;
+}
+
+.NORMAL {
+    font-weight: bold;
+    color: brown;
+}
+
+.FIRE {
+    font-weight: bold;
+    color: red;
+}
+
+.GRASS {
+    font-weight: bold;
+    color: rgb(0, 163, 8);
+}
+
+.ELECTRIC {
+    font-weight: bold;
+    color: rgb(255, 218, 7);
+}
+
+.ICE {
+    font-weight: bold;
+    color: aqua;
+}
+
+.PSYCHIC {
+    font-weight: bold;
+    color: rgb(255, 153, 255);
+}
+
+.STEEL {
+    font-weight: bold;
+    color: gray;
+}
+
+.LEGEND {
+    font-weight: bold;
+    color: rgb(255, 133, 154);
+}
